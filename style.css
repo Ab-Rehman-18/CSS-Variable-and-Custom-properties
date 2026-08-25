@@ -1,0 +1,37 @@
+body {
+    background-color: rgb(1, 1, 151);
+}
+:root {
+    --main-color: whitesmoke;
+    /* --main-color: green; */
+    --main-padding:20px;
+    --main-font-size: 50px;
+    --main-background-color:grey;
+    --main-font-style: italic;
+    --main-text-color: red;
+    --main-margin: 0 auto;
+}
+h1 {
+    color: var(--main-color);
+    font-size: var(--main-font-size);
+}
+p {
+    color: var(--main-color);
+    margin: var(--main-margin);
+}
+.box {
+    color: var(--main-color);
+    padding: var(--main-padding);
+    border: 2px solid whitesmoke;
+    text-align: center;  
+}
+.box1 {
+    height: 100px;
+    width: 100px;
+    border: 2px solid whitesmoke;
+    color:var(--main-text-color);
+    font-style: var(--main-font-style);
+    background-color: var(--main-background-color);
+    margin: var(--main-margin);
+    padding: var(--main-padding);
+}
